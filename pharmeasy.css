@@ -63,6 +63,7 @@ form{
     font-family: 'Gill Sans', sans-serif;
     letter-spacing: 0.7px;
     font-size: 16.5px;
+    color: var(--nineteen-color);
 }
 .secondform .secondinput{
     width: 400px;
@@ -93,6 +94,12 @@ form{
     position: relative;
     color: white;
 }
+    /* coupon */
+#coupon{
+    width: 280px;
+    height: 180px;
+    background-color: #07b9e0;
+}
 :root{
     --primary-color: #000000;
     --secondary-color: #FFFFFF;
@@ -112,6 +119,7 @@ form{
     --sixteen-color: #10847E;
     --seventeen-color: #5298ce;
     --eighteen-color: #6c7277;
+    --nineteen-color: #828282;
 }
 .myDark{
     --primary-color: #FFFFFF;
@@ -132,6 +140,7 @@ form{
     --sixteen-color:  #10847E;
     --seventeen-color:  #10847E;
     --eighteen-color:  #FFFFFF;
+    --nineteen-color:  #FFFFFF;
 }
 .secondform .secondbtn{
     width: 50px;
